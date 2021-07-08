@@ -1536,6 +1536,10 @@ while (!(controller.A.isPressed())) {
             game.splash("Subscribe to N8dev!")
         } else if (text == "lvl") {
             level_select = game.askForNumber("level?")
+        } else {
+            if (text == "Allete") {
+                game.splash("Why not try out Allete by N8Dev? it was made in the same Game Jam that PUP2 was submitted to")
+            }
         }
     }
 }
