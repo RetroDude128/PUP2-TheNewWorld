@@ -3,9 +3,7 @@ namespace SpriteKind {
     export const Robot = SpriteKind.create()
     export const BossBattle = SpriteKind.create()
 }
-/**
- * Watch Tpot is good
- */
+// Watch Tpot is good and eat McDonald's
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     if (Title == 0 && mySprite.isHittingTile(CollisionDirection.Bottom)) {
         mySprite.vy = -200
